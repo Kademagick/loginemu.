@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Social icons tooltip</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="cols">
+                <span class="topline">Where Style Meets <span class= "multiText"></span></span>
+            </div>
+        </div>
+        <div class="social">
+            <div class="social__container">
+                <div class="social__content">
+                    <a href="fb/index.html" target="_blank">
+                    <i class='bx bxl-facebook-circle social__icon'></i>
+                    <span class="social__tooltip social__tooltip-left">Join with Facebook</span>
+                </a>
+                </div>
+
+                <div class="social__content">
+                    <a href="ig/instagram.html" target="_blank">
+                    <i class='bx bxl-instagram-alt social__icon'></i>
+                    <span class="social__tooltip social__tooltip-top">join with Instagram</span>
+                </a>
+                </div>
+
+                <div class="social__content">
+                    <a href="x/X.html" target="_blank">
+                    <i class='bx bxl-twitter social__icon' ></i>
+                    <span class="social__tooltip social__tooltip-bottom">Join with Twitter/X</span>
+                </a>
+                </div>
+
+                <div class="social__content">
+                    <a href="mail/mail.html" target="_blank">
+                    <i class='bx bxs-envelope social__icon' ></i>
+                    <span class="social__tooltip social__tooltip-right">Join with Mail</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script>
+            var typingEffect = new Typed(".multiText",{
+                strings : ["beauty", "Class", "Design"],
+                loop : true,
+                typeSpeed : 100,
+                backSpeed : 80,
+                backDelay : 1500
+            })
+        </script>
+    </body>
+</html>
